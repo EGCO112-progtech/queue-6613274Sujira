@@ -44,7 +44,7 @@ int main(int argc , char **argv) {
             x=dequeue_struct(&q);
             // printf("%d, size = %d\n", x, q.size);
             if(x==0) 
-              printf("empty queue\n");
+              printf("Empty queue\n");
             else
               printf("dequeing %d\n",x);
             
